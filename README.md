@@ -9,8 +9,6 @@ Developed and tested on Google Colab, this solution utilizes key frameworks incl
 
 ![image](https://github.com/user-attachments/assets/3d54c4c0-cb56-473a-8879-6d1fca1fb7c2)
 
-![image](https://github.com/user-attachments/assets/9ebc9964-ed06-42fd-8960-62fb3071bc08)
-
 
 📊 Model Evaluation Summary
 The model's performance has been assessed using three key visualizations: the confusion matrix, the precision-recall (PR) curve, and training-validation metric plots. Together, these provide a comprehensive understanding of the object detection model’s strengths and limitations.
