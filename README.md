@@ -8,6 +8,23 @@ Upon detecting a violation, the system employs OCR techniques to extract license
 Developed and tested on Google Colab, this solution utilizes key frameworks including OpenCV, TensorFlow, and PyTorch. Performance is evaluated using metrics like mAP (mean Average Precision) for detection accuracy and RMSE (Root Mean Squared Error) for predictive modeling—ensuring both robustness and reliability.
 
 ![image](https://github.com/user-attachments/assets/3d54c4c0-cb56-473a-8879-6d1fca1fb7c2)
+
+Video Input (Surveillance Camera)
+        ↓
+  Frame Extraction (OpenCV)
+        ↓
+  YOLOv12 → Object Detection (vehicle, helmet, signal, lane)
+        ↓
+  CNN/RCNN → Fine classification (violation, number plate)
+        ↓
+  OCR → License plate recognition
+        ↓
+  Fine Generation & Logging (Database)
+        ↓
+  LSTM → Congestion Prediction (15 min ahead)
+        ↓
+  Alert System → Authority Notification
+
 ![image](https://github.com/user-attachments/assets/160a1382-1e70-4146-929f-af4dc046af43)
 
 📊 Model Evaluation Summary
