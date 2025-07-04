@@ -9,7 +9,7 @@ Developed and tested on Google Colab, this solution utilizes key frameworks incl
 
 ![image](https://github.com/user-attachments/assets/3d54c4c0-cb56-473a-8879-6d1fca1fb7c2)
 
-Video Input (Surveillance Camera)
+#Video Input (Surveillance Camera)
         ↓
   Frame Extraction (OpenCV)
         ↓
@@ -23,7 +23,7 @@ Video Input (Surveillance Camera)
         ↓
   LSTM → Congestion Prediction (15 min ahead)
         ↓
-  Alert System → Authority Notification
+  Alert System → Authority Notification #
 
 ![image](https://github.com/user-attachments/assets/160a1382-1e70-4146-929f-af4dc046af43)
 
