@@ -1,4 +1,4 @@
-# Traffic-voilation-detection-and-management-usingDL.
+# Traffic-voilation-detection-and-management-usingDL
 This project presents a comprehensive, AI-powered traffic monitoring system aimed at enhancing road safety and optimizing urban traffic flow. Leveraging advanced deep learning models, the system performs real-time object detection using YOLOv12 to identify vehicles, lane markings, traffic signals, and detect violations such as helmet-less riding, red-light jumping, and wrong-lane driving directly from surveillance video streams.
 
 To address traffic congestion proactively, a Long Short-Term Memory (LSTM) network is trained on time-series traffic data extracted from the video feed, enabling the system to predict congestion levels 15 minutes in advance. For finer-grained tasks—like license plate recognition or traffic sign classification—models such as CNN or RCNN are seamlessly integrated.
